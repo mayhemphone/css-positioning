@@ -1,0 +1,139 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-image: url('../img/bgtile2.png');
+  background-repeat: repeat-x;
+}
+footer {
+  width:580px;
+  height:30px;
+  padding:0px;
+/*  border:1px solid orange;
+  background-color: cyan;*/
+  display: flex;
+  margin:30px auto 0;
+}
+h1{
+	padding: 0px;
+	margin: 1px;
+	color: #16385b;
+	font-size: 24px;
+}
+ul {
+	padding:0;
+	margin:0;
+}
+li {
+	display: inline-block;
+	padding: 0px 8px; 
+	color: #5b7e9f;
+	text-transform: uppercase; 
+	font-size: 10px;
+	font-weight: 700;
+
+}
+a {
+	color: #5b7e9f;
+	text-decoration: none;
+}
+
+#container{
+  width:840px;
+  height:517px;
+  /*border: 1px solid red;*/
+  margin:95px auto 0;
+  display: flex;
+  flex-direction: ;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+#phone {
+  width:318px;
+  height:515px;
+  /*border:1px solid blue;*/
+  /*background-color: blue;*/
+}
+#right {
+  width:486px;
+  height:515px;
+  /*border:1px solid green;*/
+  /*background-color: green;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  
+}
+#top {
+  width:486px;
+  height:110px;
+  /*border:1px solid orange;*/
+  /*background-color: orange;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding:0 8px;
+}
+#logo {
+  width:314px;
+  height:78px;
+  margin-left: -4px;
+  /*border:1px solid cyan;*/
+  /*background-color: cyan;*/
+  align-self: center;
+}
+#login {
+  width:90px;
+  height:37px;;
+  /*border:1px solid cyan;*/
+  /*background-color: cyan;*/
+  align-self: center;
+
+}
+#theButton {
+	background-image: linear-gradient(#7293af, #4b7296);
+	color:white;
+	display:flex;
+	justify-content: space-between;
+  	align-items: flex-start;
+  	padding: 2px 8px;
+  	border: 2px solid #3e6387;
+}
+#theButton img, span {
+	align-self: center;
+	padding:3px;
+}
+#content {
+	width:486px;
+	height:300px;
+	/*border:1px solid purple;*/
+	/*background-color: purple;*/
+	/*display: flex;*/
+	padding:50px;
+	background-image: url('../img/frame.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#content p {
+	line-height: 1.6em;
+	font-weight: 400;
+  	letter-spacing: 0px;
+  	font-size: .9em;
+  	color: #4a4a4a;
+}
+#text{
+  width:486px;
+  height:448px;
+  /*border:1px dashed red;*/
+  /*background-color: red;*/
+}
+
+.appButtons {
+	margin: 0 10px 0 0;
+
+}
+.copyright{
+	color:#aaa;
+}
